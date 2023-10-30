@@ -1,7 +1,7 @@
 def greeting(name):
     print ("Hello,", name)
 
-greeting("John")
+greeting("Mike")
 
 def height(m,cm):
     total =(m*100)+cm
@@ -13,7 +13,6 @@ def calc(a,b):
 	return total
 print (calc(20,10))
 
-
 value = 18
 if (value == 15):
 	print ("yes!")
@@ -22,6 +21,6 @@ elif (value > 20):
 elif (value < 10):
 	print ("Меньше 10")
 else:
-	print ("Посередине")
+	print ("Среднее")
 
 
